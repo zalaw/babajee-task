@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&family=Source+Sans+Pro:wght@600&display=swap");
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  background-color: #eee;
+  font-family: "Source Sans Pro", sans-serif;
+  height: 100%;
+  color: rgb(3, 10, 75);
+}
+
+#root {
+  height: 100%;
+}
+
+.app {
+  height: 100%;
+}
+
+.wrapper {
+  padding: clamp(1em, 4vw, 4em);
+  height: 100%;
+  border-radius: 0.5em;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.table-main-container {
+  background-color: white;
+  border-radius: 0.5em;
+  width: 100%;
+  max-width: 80em;
+  margin: 0 auto;
+}
+
+.no-events {
+  pointer-events: none;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.center {
+  text-align: center;
+}
+
+.danger-color {
+  color: rgb(255, 85, 113);
+}
+
+.primary-color {
+  color: rgb(0, 207, 128);
+}
+
+.info-color {
+  color: rgb(33, 107, 254);
+}
+
+.doomed {
+  text-align: center;
+  padding: 2em;
+}
+
+@media screen and (max-width: 425px) {
+  body {
+    font-size: 0.7rem;
+  }
+
+  input {
+    font-size: 0.7rem;
+  }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  body {
+    font-size: 0.8rem;
+  }
+
+  input {
+    font-size: 0.8rem;
+  }
+
+  .wrapper {
+    gap: 1em;
+  }
+}

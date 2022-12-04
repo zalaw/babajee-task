@@ -1,0 +1,51 @@
+.modal-container {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.35);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+  padding: 10%;
+  overflow: auto;
+}
+
+.modal {
+  background-color: white;
+  padding: clamp(0.5em, 5vw, 2em);
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  color: rgb(3, 10, 75);
+  width: 100%;
+  max-width: 30em;
+  border-radius: 0.5em;
+  overflow: auto;
+  max-height: 100%;
+}
+
+.modal-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-header-icon {
+  font-size: 2em;
+}
+
+.modal-body {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+}
+
+.modal-footer {
+  display: flex;
+  gap: 1em;
+}
+
+.modal-footer button {
+  width: 100%;
+}
