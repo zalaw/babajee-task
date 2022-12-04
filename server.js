@@ -22,7 +22,7 @@ app.use(express.json());
 app.use("/", require("./routes/index"));
 
 if (process.env.NODE_ENV === "production") {
-  app.use(express.static("client/build"));
+  app.use(express.static("./public/build"));
 }
 
 app.all("*", (req, res) => {
