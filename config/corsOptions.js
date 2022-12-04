@@ -1,8 +1,4 @@
-const allowedOrigins = [
-  "http://localhost:5000",
-  "https://www.babajee-task.onrender.com",
-  "https://babajee-task.onrender.com",
-];
+const allowedOrigins = ["http://localhost:5000", "https://www.babajee.onrender.com", "https://babajee.onrender.com"];
 
 const corsOptions = {
   origin: (origin, cb) => {

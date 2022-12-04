@@ -4,3 +4,6 @@
 20221121	19:24:39	ce27fc97-b89a-417a-b729-0d4ca9fb7914	PUT	/api/users/637bb44f1e44dd2541b5961d	undefined
 20221121	19:24:44	d03627b3-f1d9-468a-97fe-23890632b4c0	DELETE	/api/users/637bb44f1e44dd2541b5961d	undefined
 20221121	19:24:46	7987bfd2-ee54-402f-ba95-256afbc02aa5	GET	/api/users	undefined
+20221205	00:34:24	2a388a52-d03e-44fd-a5f9-3a9a4f4e2ee3	GET	/api/users?query=&page=1	undefined
+20221205	00:34:41	5adfc450-7fb2-48dd-a1f7-12cfd92cbe39	GET	/api/users?query=&page=1	undefined
+20221205	00:35:13	7b322ffd-3bed-49b1-be71-e956241746b1	GET	/api/users?query=&page=1	undefined
