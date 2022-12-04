@@ -1,6 +1,6 @@
 # Babajee Task (MERN stack) 🎉
 
-Deployed [here](https://babajee-task.herokuapp.com/)
+Deployed [here](https://babajee-task.onrender.com/)
 
 If you want to connect to your own MongoDB cloud database, add `.env` file in the root directory with the following content:
 
